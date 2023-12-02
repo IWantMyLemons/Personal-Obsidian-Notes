@@ -23,7 +23,7 @@ $UB\{b\}=\{b,d,e,f,g,h,j\}$
 $UB\{c\}=\{c,e,f,j,h\}$
 $UB\{b,c\}=\{e,f,j,h\}$
 $LB\{a,b,c\}=\{a\}$
-$LB\{g,c\}=\{a\}$
+$LB\{c,g\}=\{a\}$
 
 ---
 Related:
