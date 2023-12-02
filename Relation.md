@@ -3,11 +3,11 @@ share: true
 ---
 
 
-Definition:: A relation is a mathematical tool for describing associations between elements of sets.
-
+Definition:: A mathematical tool for describing associations between elements of [sets](Set.md).
 
 Currently known relations include:
 - [Binary Relation](./Binary%20Relation.md) : Given sets $A$ and $B$, a binary relation $R:A\to B$ where $R \subseteq A \times B$
+- [Partial Ordering](./Partial%20Ordering.md) : A [Relation](Relation.md) that is reflexive, antisymmetric and transitive
 
 e.g.
 $\text{let } a = \{1, 2, 3, 4\}$
@@ -19,7 +19,7 @@ then $R = \{(1,1),(1,2),(1,3),(1,4),(2,2),(2,4),(3,3),(4,4)\}$
 Relations can be represented by a matrix where
 $$
 a_{ij} = \begin{cases}
-1 \text{ if the ith element of A is related to the jth}\\
+1 \text{ if the ith element of A is related to the jth element}\\
 0 \text{ otherwise}
 \end{cases}
 $$
@@ -56,10 +56,10 @@ Symmetric means that $(b,a)\in R$ whenever $(a,b)\in R$
 In a matrix, this is shown by all elements being symmetrical by the horizontal
 $$
 \begin{bmatrix}
- &b&c&d\\
-b& &f&g\\
-c&f& &i\\
-d&g&i& \\
+ &a&b&c\\
+a& &d&e\\
+b&d& &f\\
+c&e&f& \\
 \end{bmatrix}
 $$
 
@@ -81,12 +81,13 @@ $$
 ### Transitive
 $(a,b)\in R \land (b,c)\in R \to (a,c)\in R,\forall a,b,c\in A$
 Transitive means that if there is a chain $(a,b)$ and $(b,c)$ then $(a,c)$ also exists
-
+Normally shown with a [Directed Graph](./Directed%20Graph.md)
 
 ---
 
 Related :
 - [Binary Relation](./Binary%20Relation.md) : Given sets $A$ and $B$, a binary relation $R:A\to B$ where $R \subseteq A \times B$
+- [Partial Ordering](./Partial%20Ordering.md) : A [Relation](Relation.md) that is reflexive, antisymmetric and transitive
 - [Set](Set.md) : 
 
 Additional reading:
