@@ -7,7 +7,7 @@ Definition:: A relation is a mathematical tool for describing associations betwe
 
 
 Currently known relations include:
-- [[Binary Relation|Binary Relation]] : Given sets $A$ and $B$, a binary relation $R:A\to B$ where $R \subseteq A \times B$
+- [Binary Relation](./Binary%20Relation.md) : Given sets $A$ and $B$, a binary relation $R:A\to B$ where $R \subseteq A \times B$
 
 e.g.
 $\text{let } a = \{1, 2, 3, 4\}$
@@ -86,8 +86,8 @@ Transitive means that if there is a chain $(a,b)$ and $(b,c)$ then $(a,c)$ also 
 ---
 
 Related :
-- [[Binary Relation|Binary Relation]] : Given sets $A$ and $B$, a binary relation $R:A\to B$ where $R \subseteq A \times B$
-- [[Set|Set]] : 
+- [Binary Relation](./Binary%20Relation.md) : Given sets $A$ and $B$, a binary relation $R:A\to B$ where $R \subseteq A \times B$
+- [Set](Set.md) : 
 
 Additional reading:
-- [[Chapter 7: Relations and Partial Orders|Chapter 7: Relations and Partial Orders]]
+- [Chapter 7: Relations and Partial Orders](./Credenza/Chapter%207:%20Relations%20and%20Partial%20Orders.md)

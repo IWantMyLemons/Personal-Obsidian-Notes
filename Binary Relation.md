@@ -17,7 +17,7 @@ $\pi \not R c = (\pi,x)\not\subseteq R$
 
 ---
 Related:
-- [[Relation|Relation]] : A relation is a mathematical tool for describing associations between elements of sets.
+- [Relation](./Relation.md) : A relation is a mathematical tool for describing associations between elements of sets.
 
 Further Reading:
-- [[Chapter 7: Relations and Partial Orders|Chapter 7: Relations and Partial Orders]]
+- [Chapter 7: Relations and Partial Orders](./Credenza/Chapter%207:%20Relations%20and%20Partial%20Orders.md)
