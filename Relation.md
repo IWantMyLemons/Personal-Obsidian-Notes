@@ -13,14 +13,22 @@ e.g.
 $\text{let } a = \{1, 2, 3, 4\}$
 $R = \{(a, b)|\text{ a divides b}\}$
 then $R = \{(1,1),(1,2),(1,3),(1,4),(2,2),(2,4),(3,3),(4,4)\}$
+$$
+\begin{bmatrix}
+1&1&1&1\\
+0&1&0&1\\
+0&0&1&0\\
+0&0&0&1\\
+\end{bmatrix}
+$$
 
 \* $\text{a divides b}$ means that $\text{b}$ is divisible by $\text{a}$
 
 Relations can be represented by a matrix where
 $$
 a_{ij} = \begin{cases}
-1 \text{ if the ith element of A is related to the jth element}\\
-0 \text{ otherwise}
+1&a\in R\\
+0&a\not\in R
 \end{cases}
 $$
 
@@ -62,6 +70,11 @@ b&d& &f\\
 c&e&f& \\
 \end{bmatrix}
 $$
+
+### Asymmetric
+$(a,b)\in R\to \neg(b,a)\in R,\exists a,b\in A$
+Asymmetric means that $(b,a)\in R$ whenever $(a,b)\in R$
+Asymmetric is the opposite of Symmetric
 
 ### Antisymmetric
 $(a,b)\in R\land (b,a)\in R \to a=b,\forall a,b\in A$
