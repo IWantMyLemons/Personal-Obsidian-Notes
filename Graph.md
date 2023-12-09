@@ -35,18 +35,22 @@ $$
 $$
 where there is a connection from b to a and from b to b
 Isomorphic : If the shapes of 2 graphs are the same
-Path : A set of vertices that go in a path, you may not cross the same vertice twice
+Path : A set of vertices that go in a path, you may not cross the same edge twice
 Circuit : Path that starts and ends on the same vertice
 Connected : When there is a path to and from every vertice when undirected
 Strongly Connected : When there is a path to and from every vertice
 Weakly Connected : When there is a path between every vertice
-
+Euler's Circuit : Circuit that contains every edge of g
+Euler's Path : Path that contains every edge of g
 
 ## Cool Math ~~Games~~ Facts
 $$
 2m = \sum_{v=V}\deg(v)
 $$
 $m$ is edges
+
+A Euler's Path but not a Euler's Circuit exists if there is exactly 2 odd degree vertices
+
 
 ---
 Related:
