@@ -72,7 +72,7 @@ c&e&f& \\
 $$
 
 ### Asymmetric
-$(a,b)\in R\to \neg(b,a)\in R,\exists a,b\in A$
+$(a,b)\in R\to (b,a)\not\in R,\forall a,b\in A$
 Asymmetric means that $(b,a)\in R$ whenever $(a,b)\in R$
 Asymmetric is the opposite of Symmetric
 
