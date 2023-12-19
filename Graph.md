@@ -42,6 +42,20 @@ Strongly Connected : When there is a path to and from every vertice
 Weakly Connected : When there is a path between every vertice
 Euler's Circuit : Circuit that contains every edge of g
 Euler's Path : Path that contains every edge of g
+Hamilton Circuit : Circuit that contains every vertice of g
+Hamilton Path : Path that contains every vertice of g
+Chromatic Number : Least colors needed to color graph
+Bipartide Graph : Union of 2 disjoint sets / Chromatic Number == 2 / no odd-sided polygons
+Tree : Undirected graph without circuits
+Forest : Collections of trees
+Branch : Tree node with some connections
+Leaf : Tree node with no more nodes afterwards / Degree == 1
+Subtree : Tree in tree
+
+## How to find Chromatic Number
+1. Count degrees of all nodes
+2. Order them by degree, then alphabetically
+3. Color them in that order, one color at a time using multiple passes
 
 ## Cool Math ~~Games~~ Facts
 $$
@@ -49,7 +63,7 @@ $$
 $$
 $m$ is edges
 
-A Euler's Path but not a Euler's Circuit exists if there is exactly 2 odd degree vertices
+A Euler's Path but not a Euler's Circuit exists if there is exactly 2 odd degree vertices, in this case the path must start and end on the odd degree vertices
 
 
 ---
