@@ -10,10 +10,13 @@ The following shows $\{\{1,2,3,4\}, \leq\}$
 
 ## Operations
 The Maximal of the diagram are the nodes in the top
-The Minimal of the diagram are the nodes in the top
+The Minimal of the diagram are the nodes in the bottom
+
+The Maximum of a diagram is the node where all nodes converge on the top
+The Minimum of a diagram is the node where all nodes converge on the bottom
 
 The Upper Bound(UB) of an element in the diagram is all the nodes connected above it
-The Lower Bound(LB) of an element in the diagram is all the nodes connected above it
+The Lower Bound(LB) of an element in the diagram is all the nodes connected below it
 
 If there are multiple bounds, intersect the bounds together 
 

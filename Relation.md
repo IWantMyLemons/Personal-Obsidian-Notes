@@ -8,6 +8,7 @@ Definition:: A mathematical tool for describing associations between elements of
 Currently known relations include:
 - [Binary Relation](./Binary%20Relation.md) : Given sets $A$ and $B$, a binary relation $R:A\to B$ where $R \subseteq A \times B$
 - [Partial Ordering](./Partial%20Ordering.md) : A [Relation](Relation.md) that is reflexive, antisymmetric and transitive
+- [Equivalence Relation](./Equivalence%20Relation.md) : An equivalence relation is a binary relation that is reflexive, symmetric and transitive
 
 e.g.
 $\text{let } a = \{1, 2, 3, 4\}$
