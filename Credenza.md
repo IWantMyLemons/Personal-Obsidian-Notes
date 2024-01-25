@@ -3,30 +3,32 @@ share: true
 ---
 
 
+
 ## TODO
 - [Plane](./Plane.md): Do more research on how this works, maybe write a note on [Quaternion](Quaternion.md)
 
 
 ## Recent
+- [Discrete Math](./Discrete%20Math.md): Note including all kisi-kisi stuff
+- [Credenza](Credenza.md): Totally not Impuritas Civitatis
 - [Graph](./Graph.md): A discrete structure consisting of vertices and edges
 - [Null Hypothesis](./Null%20Hypothesis.md): $H_0$, is the hypothesis that the data is statistically insignificant
 - [P-Value](./P-Value.md): Some value used to verify [Null Hypothesis](Null%20Hypothesis.md)
-- [Credenza](Credenza.md): Totally not Impuritas Civitatis
 - [Plane](./Plane.md): A 2d surface
 - [Cosplay](./Cosplay.md): Acting + dressup but a hobby
 - [Alchohol](./Alchohol.md): ethanol
 - [Proposal](./Proposal.md): Rencana yang bertujuan untuk memberi gambaran kegiatan tertentu
 - [Proposal Penelitian](./Proposal%20Penelitian.md): Proposal
-- [Great Split Horizontal](./Great%20Split%20Horizontal.md): Very cool thing you should check out
 
 
 ## All
 | File                                                                    | Definition                                                                          | Date Created                 |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------- |
+| [Discrete Math](./Discrete%20Math.md)                       | Note including all kisi-kisi stuff                                                  | 7:21 PM - January 25, 2024   |
+| [Credenza](Credenza.md)                                               | Totally not Impuritas Civitatis                                                     | 1:28 PM - November 30, 2023  |
 | [Graph](./Graph.md)                                       | A discrete structure consisting of vertices and edges                               | 7:48 AM - December 09, 2023  |
 | [Null Hypothesis](./Null%20Hypothesis.md)                   | $H_0$, is the hypothesis that the data is statistically insignificant               | 12:11 PM - December 11, 2023 |
 | [P-Value](./P-Value.md)                                   | Some value used to verify [Null Hypothesis](Null%20Hypothesis.md)                                       | 11:55 AM - December 11, 2023 |
-| [Credenza](Credenza.md)                                               | Totally not Impuritas Civitatis                                                     | 1:28 PM - November 30, 2023  |
 | [Plane](./Plane.md)                                       | A 2d surface                                                                        | 9:47 AM - December 05, 2023  |
 | [Cosplay](./Cosplay.md)                                    | Acting + dressup but a hobby                                                        | 4:03 PM - December 07, 2023  |
 | [Alchohol](./Alchohol.md)                                  | ethanol                                                                             | 4:02 PM - December 07, 2023  |
@@ -34,7 +36,7 @@ share: true
 | [Proposal Penelitian](./Proposal%20Penelitian.md)       | Proposal                                                                            | 3:51 PM - December 06, 2023  |
 | [Great Split Horizontal](./Great%20Split%20Horizontal.md) | Very cool thing you should check out                                                | 3:19 PM - December 06, 2023  |
 | [Relation](./Relation.md)                                 | A mathematical tool for describing associations between elements of [sets](Set.md).  | 7:19 AM - December 02, 2023  |
-| [Hasse Diagram](./Hasse%20Diagram.md)                       | A simplified [Directed Graph](Directed%20Graph.md) that shows a [Partial Ordering](Partial%20Ordering.md)                   | 10:00 AM - December 02, 2023 |
+| [Hasse Diagram](./Hasse%20Diagram.md)                                     | A simplified [Directed Graph](Directed%20Graph.md) that shows a [Partial Ordering](Partial%20Ordering.md)                   | 10:00 AM - December 02, 2023 |
 | [Directed Graph](./Directed%20Graph.md)                     | A graph which shows all relations through arrows                                    | 10:01 AM - December 02, 2023 |
 | [Partial Ordering](./Partial%20Ordering.md)                 | A [Relation](Relation.md) that is reflexive, antisymmetric and transitive                      | 10:38 AM - December 02, 2023 |
 | [School Note](./School%20Note.md)                               | <%tp.file.cursor()%>                                                                | 9:06 AM - December 02, 2023  |
