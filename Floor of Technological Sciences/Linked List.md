@@ -7,6 +7,11 @@ Definition:: a way of storing data where elements are grouped with a pointer to 
 
 > each group of data and pointer is called a `Node`
 
+Linked lists can be represented with a polynomial representing the order of the nodes. e.g. $\{5,16,14,21\}$ is $5x^3+16x^2+14x+21$
+
+Circular linked lists happen when you connect the tail to the head
+Ouroboros moment
+
 ## Singly linked
 a singly linked list contains a pointer to the next node
 ```c
@@ -29,6 +34,10 @@ struct IntNode {
 	struct IntNode* prev;
 };
 ```
+
+## Usage
+Linked lists are normally used where insertions and deletions happen near the start of the list, though it's speed is debatable due to modern hardware.
+
 
 ---
 Related:
